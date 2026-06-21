@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Nida 🌷</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ffe4ec,#fff5f7,#fff0f5);
+overflow:hidden;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.hearts{
+position:fixed;
+width:100%;
+height:100%;
+pointer-events:none;
+overflow:hidden;
+z-index:1;
+}
+
+.heart{
+position:absolute;
+bottom:-50px;
+font-size:20px;
+animation:floatHeart linear infinite;
+opacity:.8;
+}
+
+@keyframes floatHeart{
+0%{
+transform:translateY(0) rotate(0deg);
+opacity:1;
+}
+100%{
+transform:translateY(-110vh) rotate(360deg);
+opacity:0;
+}
+}
+
+.book{
+position:relative;
+width:95%;
+max-width:900px;
+height:90vh;
+z-index:5;
+perspective:2000px;
+}
+
+.page{
+position:absolute;
+width:100%;
+height:100%;
+background:white;
+border-radius:20px;
+padding:30px;
+box-shadow:0 10px 40px rgba(0,0,0,.15);
+display:none;
+overflow:auto;
+animation:fade .6s ease;
+}
+
+.page.active{
+display:block;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:scale(.95);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+
+h1{
+font-family:'Dancing Script',cursive;
+font-size:4rem;
+color:#ff4f81;
+text-align:center;
+}
+
+h2{
+text-align:center;
+color:#ff4f81;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+p{
+font-size:1.1rem;
+line-height:1.8;
+text-align:center;
+color:#444;
+}
+
+.nav{
+position:absolute;
+bottom:15px;
+width:100%;
+left:0;
+display:flex;
+justify-content:center;
+gap:15px;
+}
+
+button{
+padding:12px 24px;
+border:none;
+border-radius:30px;
+background:#ff4f81;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+.tulip{
+position:absolute;
+font-size:35px;
+animation:wave 3s infinite ease-in-out;
+}
+
+@keyframes wave{
+50%{
+transform:translateY(-8px);
+}
+}
+
+.cover{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:100%;
+text-align:center;
+}
+
+.cover h1{
+font-size:5rem;
+}
+
+.cover .date{
+font-size:1.5rem;
+color:#777;
+margin-top:10px;
+}
+
+.cover .subtitle{
+margin-top:20px;
+font-size:1.3rem;
+color:#555;
+}
+
+.memory-box{
+background:#fff0f5;
+padding:20px;
+border-radius:15px;
+margin-top:20px;
+}
+
+.cake{
+font-size:120px;
+text-align:center;
+animation:bounce 1.5s infinite;
+}
+
+@keyframes bounce{
+50%{
+transform:translateY(-15px);
+}
+}
+
+.quote{
+font-size:1.4rem;
+font-weight:600;
+color:#ff4f81;
+margin-top:30px;
+}
+
+::-webkit-scrollbar{
+width:6px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#ff4f81;
+border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hearts" id="hearts"></div>
+
+<div class="book">
+
+<!-- PAGE 1 -->
+
+<div class="page active">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+<div class="tulip" style="bottom:60px;left:20px;">🌷</div>
+<div class="tulip" style="bottom:60px;right:20px;">🌷</div>
+
+<div class="cover">
+
+<h1>Happy Birthday Nida 🌷</h1>
+
+<div class="date">
+07 / 07 / 2011
+</div>
+
+<div class="subtitle">
+A Special Birthday Book Made With Love,
+Care & Endless Friendship 💙
+</div>
+
+<br><br>
+
+<p>
+Today is all about celebrating an amazing person.
+May your smile always shine brighter than the stars,
+and may every dream you have come true.
+✨🎂🌷
+</p>
+
+</div>
+
+</div>
+
+<!-- PAGE 2 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Dear Nida 💖</h2>
+
+<div class="memory-box">
+
+<p>
+From the day we became friends,
+you brought happiness, laughter,
+and beautiful memories into my life.
+You are one of the sweetest people I know,
+and I am grateful for every conversation,
+every joke, and every moment we shared.
+🌷✨
+</p>
+
+<br>
+
+<p>
+On your special day,
+I just want to remind you that
+you are appreciated,
+valued,
+and truly special.
+💙
+</p>
+
+</div>
+
+</div>
+
+<!-- PAGE 3 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Beautiful Memories 🌷</h2>
+
+<p>
+Friendship is not about how long
+people know each other.
+It is about who walks into your life
+and stays through every moment.
+</p>
+
+<br>
+
+<p>
+Thank you for being a wonderful friend,
+for your kindness,
+your support,
+and for making ordinary days
+feel a little more special.
+✨💖🌷
+</p>
+
+<div class="quote">
+"Best friends make the world brighter."
+</div>
+
+</div>
+<!-- PAGE 4 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>What Makes You Special ✨</h2>
+
+<p>
+Your smile can brighten a room,
+your kindness makes people comfortable,
+and your determination inspires everyone around you.
+</p>
+
+<br>
+
+<p>
+Never forget how amazing you are.
+You have a beautiful heart,
+a brilliant mind,
+and a future full of opportunities.
+🌷💖
+</p>
+
+<div class="quote">
+"Stay exactly as wonderful as you are."
+</div>
+
+</div>
+
+<!-- PAGE 5 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Birthday Cake Time 🎂</h2>
+
+<div class="cake">
+🎂
+</div>
+
+<p>
+May your birthday be filled with laughter,
+joy, love, surprises, and lots of cake!
+</p>
+
+<br>
+
+<p>
+Make a wish today and believe in it.
+Wonderful things are waiting for you.
+✨🎉🌷
+</p>
+
+</div>
+
+<!-- PAGE 6 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Birthday Wishes 🌷</h2>
+
+<p>
+I wish you happiness that never fades,
+success in everything you do,
+good health,
+endless smiles,
+and beautiful memories.
+</p>
+
+<br>
+
+<p>
+May every year bring you closer
+to your dreams and goals.
+💖✨
+</p>
+
+<br>
+
+<p>
+May your life always be surrounded
+by love, positivity, and peace.
+🌷
+</p>
+
+</div>
+
+<!-- PAGE 7 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Thank You For Being My Friend 💙</h2>
+
+<p>
+Some people enter our lives
+and make them better simply by being there.
+You are one of those people.
+</p>
+
+<br>
+
+<p>
+Thank you for every laugh,
+every conversation,
+every shared memory,
+and every moment of friendship.
+</p>
+
+<br>
+
+<p>
+No matter where life takes us,
+I will always appreciate the friendship
+we share today.
+🌷✨
+</p>
+
+<div class="quote">
+"True friendship is one of life's greatest gifts."
+</div>
+
+</div>
+<!-- PAGE 8 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Friendship Forever 🌷</h2>
+
+<p>
+A good friend knows your stories,
+but a best friend helps you create them.
+</p>
+
+<br>
+
+<p>
+Thank you for all the smiles,
+the fun moments,
+and the memories that make life brighter.
+</p>
+
+<div class="quote">
+"Friends make ordinary days extraordinary."
+</div>
+
+</div>
+
+<!-- PAGE 9 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<h2>Your Bright Future ✨</h2>
+
+<p>
+May you achieve every goal you set,
+whether it is becoming an engineer,
+a doctor,
+or anything else your heart desires.
+</p>
+
+<br>
+
+<p>
+Keep believing in yourself,
+keep learning,
+and keep shining.
+The future is waiting for you.
+🌷💖
+</p>
+
+</div>
+
+<!-- PAGE 10 -->
+
+<div class="page">
+
+<div class="tulip" style="top:10px;left:15px;">🌷</div>
+<div class="tulip" style="top:10px;right:15px;">🌷</div>
+
+<div class="cover">
+
+<h1>Happy Birthday Again Nida 🌷🎂</h1>
+
+<p>
+Thank you for being such an amazing friend.
+I hope this little birthday book
+brings a smile to your face.
+</p>
+
+<br>
+
+<p>
+May your day be filled with happiness,
+your year with success,
+and your life with endless joy.
+💙✨🌷
+</p>
+
+<div class="quote">
+With Best Wishes 💖
+</div>
+
+</div>
+
+</div>
+
+<!-- Navigation -->
+
+<div class="nav">
+<button onclick="prevPage()">⬅ Previous</button>
+<button onclick="nextPage()">Next ➡</button>
+</div>
+
+</div>
+
+<script>
+
+const pages = document.querySelectorAll('.page');
+let currentPage = 0;
+
+function showPage(index){
+pages.forEach(page => page.classList.remove('active'));
+pages[index].classList.add('active');
+}
+
+function nextPage(){
+if(currentPage < pages.length - 1){
+currentPage++;
+showPage(currentPage);
+}
+}
+
+function prevPage(){
+if(currentPage > 0){
+currentPage--;
+showPage(currentPage);
+}
+}
+
+const heartsContainer = document.getElementById('hearts');
+
+function createHeart(){
+
+const heart = document.createElement('div');
+heart.classList.add('heart');
+
+heart.innerHTML = ['❤️','💖','💕','💗'][Math.floor(Math.random()*4)];
+
+heart.style.left = Math.random()*100 + '%';
+heart.style.animationDuration = (4 + Math.random()*4) + 's';
+heart.style.fontSize = (15 + Math.random()*25) + 'px';
+
+heartsContainer.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},8000);
+
+}
+
+setInterval(createHeart,300);
+
+</script>
+
+</body>
+</html>
